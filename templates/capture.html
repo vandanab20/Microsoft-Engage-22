@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Capture
+{% endblock %}
+
+{% block main %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+</script>
+
+  <div class="row">
+    <div class="col-sm">
+      <video id="camera" width=320 height=240 controls autoplay>Camera stream</video>
+    </div>
+    <div class="col-sm">
+    </div>
+    <div class="col-sm">
+      <canvas class="camera-image" id="canvas" width=320 height=240></canvas>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm">
+      <label> Camera Feed </label>
+    </div>
+    <div class="col-sm">
+    </div>
+    <div class="col-sm">
+      <label id="location">GPS Co-ordinates</label><br>
+      <label><a id="imageurl">Student</a></label><br>
+      <label id="status">Server Status</label>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm">
+    </div>
+    <div class="col-sm">
+      <button type="button" id="capturebutton" class="btn btn-primary">Capture Image</button>
+    </div>
+    <div class="col-sm">
+    </div>
+  </div>
+
+<script src="/static/capture.js"> </script>
+<script>
+
+{% endblock %}

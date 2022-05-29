@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        {
+            .column {
+                float:left;
+                width:50%;
+                padding:10px;
+            }
+            .row:after{
+                content: "";
+                display:table;
+                clear:both;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Face Recognition</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Home">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/Attendance">Attendance</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/About">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/Contact_Us">Contact_Us</a>
+            </li>
+
+    
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+    
+    </div>
+    <div class="container justify-content-center" style ="display: flex;
+    align-items: center;">
+   
+    
+    <div class="row align-items-center">
+        <div class="col-md-4 " ><h3 text-top my-10 text-center>Mark your Attendance by <span style="color:#800080; margin-left:10% ">Face Recognition</span></h3><br><p>Make the Education system digitalized by using easy and a secure way of 
+            taking down attendance. The software first captures an image of 
+            all the authorized persons and stores the information into database.  </p></div>
+        
+        <div class="col-md-8"><img src="https://image.shutterstock.com/image-vector/face-id-recognition-system-facial-260nw-1771122317.jpg" alt="Smiley face" width="100%" height="500" style="float:right"></div>
+    </div>
+  </div>
+    
+    <script>
+      function myFunction() {
+        location.replace("http://127.0.0.1:8000/Attendance")
+      } </script>
+      
+  </body>
+</html>
