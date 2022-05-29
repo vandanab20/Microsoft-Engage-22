@@ -5,7 +5,8 @@
 ## Instructions and Build
 In the development of this project, I have used Flask, dlib, Face_recognition, javascript. 
 - The user will have to create a images folder that contains train and test folder
-- Then upload images in train folder for database
+- Then in train folder create folders named YOUR_NAME.jpg and in that folders upload images as YOUR_NAME_1.jpg,YOUR_NAME_2.jpg,YOUR_NAME_3.jpg.....
+- Name in MARKED_ATTENDANCE.csv is saved as YOUR_NAME.jpg
 - Create a MARKED_ATTENDANCE.csv file to get the marked attendance and copy its path in lmao.py
 - In the app go to Attendance page and capture the image.
 - In f_recognize function call, copy the path of test and train directory in lmao.py.
